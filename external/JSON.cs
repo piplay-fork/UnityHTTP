@@ -35,7 +35,8 @@ public class JSON
 	/// </summary>
 	/// <param name="json">A JSON byte array.</param>
 	/// <returns>An ArrayList, a Hashtable, a double, a string, null, true, or false</returns>
-	public static object JsonDecode (byte[] json) {
+	public static object JsonDecode (byte[] json)
+	{
 		return JsonDecode(System.Text.ASCIIEncoding.ASCII.GetString(json));
 	}
 	
